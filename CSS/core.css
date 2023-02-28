@@ -1,0 +1,322 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.blue-line{
+    margin-left: 0;
+    height: 5px;
+    width: 70px;
+    background: #00bfe7;
+    border: none;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.section-title{
+    font-family: "Play", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: white;
+}
+.big-title{
+    margin-top:3rem;
+    color: #ffffff;
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 4.375rem;
+    text-transform: uppercase;
+    font-family: "Play", sans-serif;
+    background-color: transparent;
+}
+
+.button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    border: 3px solid #00BFE7;    
+    padding: 1rem;
+    text-transform: uppercase;
+    font-family: "Play", sans-serif;
+    letter-spacing: 2px;
+    transition: .3s;
+}
+.button:hover{
+    background: #03e9f4;
+    color: #fff;
+    /* border-radius: 5px; */
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+
+}
+
+
+/*navigation*/
+.fon1{
+    background: url(/IMAGES/team-bg.jpg);
+    /* padding-bottom: 1rem; */
+    background-size: cover;
+}
+.fon11{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+.nav-logo i{
+    color: white;
+    font-size: 2rem;
+}
+.nav-logo p{
+    color: white;
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size: 1.4rem;
+    font-family:'Arial Narrow Bold', sans-serif;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.nav-link{
+    border-bottom: 2px solid #07BFE2;
+    padding-bottom: 0.5rem;
+    border: none;
+    transition: 0.2s;
+
+}
+.nav-link.active , .nav-link:hover{
+    border-bottom: 2px solid #07BFE2;
+}
+.nav-link a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.messangers{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.messangers i{
+    font-size: 1.1rem;
+    color: white;
+}
+.items-in-bar{
+    display: inline-block;
+    display: flex;
+    background-color:#222222;
+    padding: 0 2rem;
+    border-radius: 0.4rem;
+    align-items: center;
+    gap: 1.5rem;
+}
+.navigation-bar-menyu{
+    display: flex;
+    justify-content: right;
+}
+.navigation-bar-menyu p{
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+.navigation-bar-menyu i{
+    color: white;
+}
+
+
+/*footer section*/
+.footer{
+    background-color:#0A0119;
+}
+.footer_position{
+    padding-top:2rem;
+    padding: 5rem;
+
+}
+
+.grid-items{
+    display: grid;
+    grid-template-columns: 29% 19% 19% 29%;
+    box-sizing: border-box;
+    gap: 1rem;
+}
+.grid-item{
+    /* border: 1px white solid; */
+    /* background-color: red; */
+    height: 20rem;
+    padding: 1rem;
+    color: white;  
+}
+.grid-item h1{
+    font-family:"Arial Black";
+    font-size: 1.5rem;
+    margin-bottom: 2.3rem;
+}
+.grid-item p{
+    color: #797979;
+    text-align: justify;
+}
+.input-telegram{
+    /* position: relative; */
+    width: 90%;
+    height: 3rem;
+    /* background-color: white; */
+    border: 1px solid #797979;
+    display: flex;
+    justify-content: space-between;
+    background-color:#0A0119;
+}
+.input-telegram img{
+    /* position: absolute; */
+    width: 15%;
+    height: 3rem;
+    text-align: right;
+
+}
+.input-telegram input{
+    margin-left: 1rem;
+    background-color: #0A0119;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.line-footer{
+    margin-bottom: 5rem;
+}
+.footer-info{
+    /* font-family: "Josefin Sans", sans-serif; */
+    position: relative;
+    top:3rem;
+    text-align: center;
+    color: #797979;
+}
+.footer-info span{
+    color: #4aa2ef;
+}
+.footer-info i{
+    
+    padding: 0 2px;
+    color: #4aa2ef;
+}
+
+
+/*blog section styles*/
+/*our time section*/
+.our-team{
+    background: url(/IMAGES/team-bg.jpg);
+    background-size: cover;
+    
+}
+.dates{
+    padding-top: 100px;
+}
+.time{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 3.3rem;
+}
+.card{
+    /* border: 1px solid red; */
+    position: relative;
+    height: 19.2rem;
+    padding-right: 10px;
+}
+.card img{
+    height: 100%;
+}
+.cards-time{
+    padding-top:100px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.two{
+    position: relative;
+    top: -50px;
+}
+.three{
+    position: relative;
+    top: -100px;
+}
+.four{
+    position: relative;
+    top: -150px;
+}
+.time-button{
+    display: flex;
+    margin-top: -50px;
+    justify-content: right;
+    padding-bottom: 100px;
+}
+.time-overflow{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 95%;
+    height: 0%;
+    visibility: hidden;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.card:hover .time-overflow{
+    height: 40%;
+    visibility: visible;
+}
+.An{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+.position-time{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    font-size: 0.5rem;
+}
+.messangers1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.messangers1 i{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.nav-link option a {
+    font-size: 15px;
+    font-family: "Play", sans-serif;
+    color: #ffffff;
+    display: block;
+    text-transform: uppercase;
+    position: relative;
+    padding: 6px 0;
+    background: none;
+}

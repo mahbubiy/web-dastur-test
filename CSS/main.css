@@ -1,0 +1,564 @@
+/* Core styles*/
+body{
+    margin: 0;
+    padding: 0;
+}
+.blue-line{
+    margin-left: 0;
+    height: 5px;
+    width: 70px;
+    background: #00bfe7;
+    border: none;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.section-title{
+    font-family: "Play", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: white;
+}
+.big-title{
+    margin-top:3rem;
+    color: #ffffff;
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 4.375rem;
+    text-transform: uppercase;
+    font-family: "Play", sans-serif;
+    background-color: transparent;
+}
+
+.button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    border: 3px solid #00BFE7;    
+    padding: 1rem;
+    text-transform: uppercase;
+    font-family: "Play", sans-serif;
+    letter-spacing: 2px;
+    /* transition: 3s; */
+    
+}
+
+
+/*navigation*/
+.fon1{
+    background: url(/IMAGES/fon1.jpg);
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+.nav-logo i{
+    color: white;
+    font-size: 2rem;
+}
+.nav-logo p{
+    color: white;
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size: 1.4rem;
+    font-family:'Arial Narrow Bold', sans-serif;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.nav-link{
+    border-bottom: 2px solid #07BFE2;
+    padding-bottom: 0.5rem;
+    border: none;
+    transition: 0.2s;
+
+}
+.nav-link.active , .nav-link:hover{
+    border-bottom: 2px solid #07BFE2;
+}
+.nav-link a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.messangers{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.messangers i{
+    font-size: 1.1rem;
+    color: white;
+}
+
+
+/*about-me*/
+
+.items-in-bar{
+    display: inline-block;
+    display: flex;
+    background-color:#222222;
+    padding: 0 2rem;
+    border-radius: 0.4rem;
+    align-items: center;
+    gap: 1.5rem;
+}
+.navigation-bar-menyu{
+    display: flex;
+    justify-content: right;
+}
+.navigation-bar-menyu p{
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+.navigation-bar-menyu i{
+    color: white;
+}
+.about-main-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.about-main-section>div{
+    flex: 1;
+}
+.about-img img{
+    width: 100%;
+}
+.top-button{
+    margin-top: 2rem;
+}
+
+
+/*Services section*/
+.fon2{
+    background-color:rgb(16,0,40);
+}
+.services-main-section{
+    padding-top: 5rem;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+.services-left-info{
+    margin-top: 3rem;
+    flex: 1;
+}
+.one-big-title{
+    margin-top:-0.1rem;
+    font-size: 3rem;
+}
+.services-text{
+    margin-top: 3rem;
+    color:rgb(173,173,173);
+    letter-spacing: 2px;
+    line-height: 1.8rem;
+    font-family: "Josefin Sans"; 
+    font-size: 1.2rem;  
+    margin-bottom: 2rem ;
+}
+.services-right-info{
+    margin-top: 3rem;
+    flex: 2;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+}
+.top-title{
+    padding-top: 2rem;
+}
+.icon-border{
+    display: inline-block;
+    border: 2px solid #00bfe7;
+    padding: 1rem;
+    transition: .7s;
+}
+.icon-border i{
+    color: white;
+    font-size: 2rem;
+    transition:.7s;
+}
+.services-item:hover .icon-border{
+    rotate: 45deg;
+}
+.services-item:hover .icon-border i{
+    rotate: -45deg;
+}
+.position{
+    margin-top: 1rem;
+}
+
+
+/*Images section*/
+.Images{
+    padding-top: 100px;
+    width: 96vw;
+    margin: 0 auto;
+    display: flex;
+    gap: 1rem;
+    box-sizing: border-box;
+}
+.item-img{
+    /* height: 40r   em; */
+    width: 33%;
+    margin-bottom: 5rem;
+}
+.item-img > div{
+    height: 50%;
+}
+.item-img img{
+    width: 100%;
+    height: 100%;
+}
+.buttom-images{
+    display: flex;
+    justify-content: space-between;
+}
+.buttom-images img{
+    width: 49%;
+    height: 100%;
+}
+.img-left{
+    margin-right: 2.5px;
+}
+.img-right{
+    margin-left: 2.5px;
+}
+.item-img>div{
+    margin-bottom: 7px;
+}
+/* .item-img img:hover{
+    transition: all 0.9s;
+    transform: translateY(-30px);
+    box-shadow: 0 10px 20px rgba(45, 45, 45, 0.4);
+} */
+
+.top-img{
+    position: relative;
+}
+.overflow{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 1%;
+    visibility: hidden;
+    transition: .5s;
+
+}
+.overflow .top, .bottom-overflow{
+    margin-left: 1rem;
+    color: white;
+    opacity: 1;
+    visibility: hidden;
+    transition: .5s;
+}
+.bottom-overflow{
+    margin-top: -10px;
+    text-transform: uppercase;
+}
+.top-img:hover .overflow,
+.top-img:hover .bottom-overflow,
+.top-img:hover .top{
+    height: 30%;
+    visibility: visible;
+    
+}
+
+/*statistics*/
+.statistics{
+    padding: 2rem 100px;
+}
+
+
+
+/*our time section*/
+.our-team{
+    background: url(/IMAGES/img13.jpg);
+}
+.dates{
+    padding-top: 100px;
+}
+.time{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 3.3rem;
+}
+.card{
+    /* border: 1px solid red; */
+    position: relative;
+    height: 19.2rem;
+    padding-right: 10px;
+}
+.card img{
+    height: 100%;
+}
+.cards-time{
+    padding-top:100px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.two{
+    position: relative;
+    top: -50px;
+}
+.three{
+    position: relative;
+    top: -100px;
+}
+.four{
+    position: relative;
+    top: -150px;
+}
+.time-button{
+    display: flex;
+    margin-top: -50px;
+    justify-content: right;
+    padding-bottom: 100px;
+}
+.time-overflow{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 95%;
+    height: 0%;
+    visibility: hidden;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.card:hover .time-overflow{
+    height: 40%;
+    visibility: visible;
+}
+.An{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+.position-time{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    font-size: 0.5rem;
+}
+.messangers1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.messangers1 i{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/*blog section*/
+.blog{
+    padding: 5rem;
+    background-color:rgb(16,0,40);
+}
+.top-menyu{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.blogg{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+.blog-line{
+    display: flex;
+    padding-top: 0.1rem;
+    /* justify-content: center; */
+}
+
+
+.kartalar{
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    gap: 2rem;
+}
+.karta{
+    /* height: 25rem; */
+    border: 2px solid #222222;
+    background-color:rgb(16,0,40);
+    padding: 1.3rem;
+    /* transition: .9s; */
+}
+.karta-sarlavxasi{
+    line-height: 1.8rem;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.karta-sanasi{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1.2rem 0;
+}
+.karta-matni{
+    padding-bottom: 1rem;
+    color: #454444;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.8rem;
+}
+.koproq-malumotlar{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    padding: 1.8rem 0;
+}
+.karta:hover{
+    height: 20rem;
+    background: url(/IMAGES/img19.png) no-repeat;
+    background-size: cover;
+
+    /* transition: 9s; */
+}
+
+/*DRON*/
+.stories{
+    width: 100%;
+    background: url(/IMAGES/dron5.jpg) no-repeat;
+    background-size: cover;
+}
+.stories-title{
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+    color: #797979;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.boshi_katta{
+    text-transform: capitalize;
+    font-size: 3.5rem;
+}
+.bgcolor{
+    padding: 1rem 3rem;
+    /* border-radius: 1rem; */
+    background-color:#00BFE7 ;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    /* margin-bottom: 3rem; */
+
+}
+.stories .container{
+    background-position: center;
+    /* padding-top: 16rem; */
+    padding: 7rem;
+}
+/*footer section*/
+.footer{
+    background-color:#0A0119;
+}
+.footer_position{
+    padding-top:2rem;
+    padding: 5rem;
+
+}
+
+.grid-items{
+    display: grid;
+    grid-template-columns: 29% 19% 19% 29%;
+    box-sizing: border-box;
+    gap: 1rem;
+}
+.grid-item{
+    /* border: 1px white solid; */
+    /* background-color: red; */
+    height: 20rem;
+    padding: 1rem;
+    color: white;  
+}
+.grid-item h1{
+    font-family:"Arial Black";
+    font-size: 1.5rem;
+    margin-bottom: 2.3rem;
+}
+.grid-item p{
+    color: #797979;
+    text-align: justify;
+}
+.input-telegram{
+    /* position: relative; */
+    width: 90%;
+    height: 3rem;
+    /* background-color: white; */
+    border: 1px solid #797979;
+    display: flex;
+    justify-content: space-between;
+    background-color:#0A0119;
+}
+.input-telegram img{
+    /* position: absolute; */
+    width: 15%;
+    height: 3rem;
+    text-align: right;
+
+}
+.input-telegram input{
+    margin-left: 1rem;
+    background-color: #0A0119;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.line-footer{
+    margin-bottom: 5rem;
+}
+.footer-info{
+    /* font-family: "Josefin Sans", sans-serif; */
+    position: relative;
+    top:3rem;
+    text-align: center;
+    color: #797979;
+}
+.footer-info span{
+    color: #4aa2ef;
+}
+.footer-info i{
+    
+    padding: 0 2px;
+    color: #4aa2ef;
+}

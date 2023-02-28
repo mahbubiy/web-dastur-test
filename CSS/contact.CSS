@@ -1,0 +1,134 @@
+.about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 6rem;
+}
+.about-us .big-title{
+    text-transform: capitalize;
+    font-family: "Play", sans-serif;
+}
+.about-us p{
+    color: white;
+    font-family: "Play", sans-serif;
+}
+.about-us span{
+    color: #797979;
+}
+.contact-section{
+    background-color: #100028;
+}
+.reseptions{
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 1rem;
+    box-sizing: border-box;
+}
+.reseption{
+    /* margin: 1rem; */
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.icon{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.icon i{
+    
+    border: 1px white solid;
+    border-radius: 50%;
+    padding: 1rem;
+    font-size: 2rem;
+    color: white;
+}
+.info h1{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: "Play", sans-serif;
+}
+.info p{
+    /* ont-size: 16px; */
+    font-family: "Josefin Sans", sans-serif;
+    color: #adadad;
+    font-weight: 400;
+    line-height: 26px;
+    margin: -2px 0 15px 0;
+}
+
+/*karta and form infos*/
+.karta-infos{
+    padding-bottom: 10rem;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 2rem;
+}
+.item{
+    background-color: red;
+}
+.item img{
+    width: 100%;
+    height: 100%;
+}
+.item h1{
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    font-family: "Play", sans-serif;
+    font-size: 1.5rem;
+}
+
+.karta-infos form input{
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 1rem;
+}
+.from-section form textarea{
+    padding: 20px;
+}
+.karta-infos form input,
+.karta-infos form textarea{
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid rgba(225, 225, 225, 0.5);
+    background: transparent;
+    font-size: 16px;
+    color: #adadad;
+    padding-left: 20px;
+    font-weight: 300;
+    margin-right: 20px;
+    padding-top: 12px;
+    font-family: inherit sans-serif;
+}
+.site-btn {
+    font-size: 15px;
+    color: #ffffff;
+    background: #00bfe7;
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    border: none;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 14px 34px 12px;
+    width: 100%;
+    margin-top: 1rem;
+    transition: .5s;
+}
+.site-btn:hover{
+    background: #03e9f4;
+    color: #fff;
+    /* border-radius: 5px; */
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+}
+

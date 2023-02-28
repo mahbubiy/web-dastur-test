@@ -1,0 +1,114 @@
+.about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.about-us .big-title{
+    text-transform: capitalize;
+    font-family: "Play", sans-serif;
+}
+.about-us p{
+    color: white;
+    font-family: "Play", sans-serif;
+}
+.about-us span{
+    color: #797979;
+}
+
+/*portfolio styls*/
+.portfolio-section{
+    background-color:#100028;
+    padding:5rem 0;
+}
+.top-navbar{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: center;
+    gap: 2rem;
+}
+.nav-item a{
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(173, 173, 173);
+    margin-right: 5px;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+.active1{
+    margin-top: -0.7rem;
+    padding: 8px 22px;
+    border: 1px solid rgb(0, 191, 231);
+}
+.plitalar{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+}
+
+.video{
+    position: relative;
+
+}
+.video a{
+    position: absolute;
+    left: 46%;
+    top: 44%;
+    font-size: 3rem;
+    color: white;
+}
+.plita h4{
+    text-align: center;
+    font-family: "Play", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: rgb(255, 255, 255);
+    margin-top:1rem;
+}
+.video img{
+    width: 100%;
+}
+.bottom-info{
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #ADADAD;
+}
+
+.bottom-mini-player{
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+}
+.left-next i{
+    color: #322646;
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+.left-next{
+    font-size: 15px;
+    color: #ffffff;
+    padding: 0 1rem;
+    text-transform: uppercase;
+    font-family:"Josefin Sans", sans-serif;
+    font-weight: bold;
+}
+.numbers1_2{
+    display: flex;
+    gap: 1rem;
+}
+.one{
+    font-size: 18px;
+    background-color: #27193D;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}

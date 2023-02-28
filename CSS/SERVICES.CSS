@@ -1,0 +1,109 @@
+.about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 6rem;
+}
+.about-us .big-title{
+    text-transform: capitalize;
+    font-family: "Play", sans-serif;
+}
+.about-us p{
+    color: white;
+    font-family: "Play", sans-serif;
+}
+.about-us span{
+    color: #797979;
+}
+.services-items{
+    margin-top: 3rem;
+    flex: 2;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+}
+.top-title{
+    padding-top: 2rem;
+}
+.icon-border{
+    display: inline-block;
+    border: 2px solid #00bfe7;
+    padding: 1rem;
+    transition: .7s;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.icon-border i{
+    color: white;
+    font-size: 2rem;
+    transition:.7s;
+}
+.services-text{
+    margin-top: 3rem;
+    color:rgb(173,173,173);
+    letter-spacing: 2px;
+    line-height: 1.8rem;
+    font-family: "Josefin Sans"; 
+    font-size: 1.2rem;  
+    margin-bottom: 2rem ;
+}
+.grid-itemss,.stories-section{
+    background-color: #100028; 
+    padding: 5rem 0 0 0;
+}
+.image{
+    background: url(/IMAGES/calltos-bg.jpg);
+    background-size: cover;
+}
+.services-item:hover .icon-border{
+    rotate: 45deg;
+}
+.services-item:hover .icon-border i{
+    rotate: -45deg;
+}
+.position{
+    margin-top: 1rem;
+}
+.img-title{
+    padding: 7rem 0 5rem 0;
+}
+.img-title h2{
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-bottom: 22px;
+    font-family: "Play", sans-serif;
+}
+.img-title p{
+    font-size: 15px;
+    color: #ffffff;
+    opacity: 0.7;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+    font-family: "Play", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.img-title a{
+    color: #ffffff;
+    background: #00bfe7;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Play", sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 14px 32px 12px;
+    text-decoration: none;
+}
+.logos{
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    gap: 1rem;
+    /* justify-content: space-between ; */
+    
+}
